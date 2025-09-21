@@ -12,6 +12,7 @@ class Contacts:
             for i in range(len(names)):
                 self.contactDict[names[i]] = numbers[i]
             print(f"Contacts saved successfully")
+            
 names = ["Emergency", "Father", "Bestie"]
 numbers = ["999", "01xx23", "01xx87", "01xx65", "01xx43"]
 m1 = Contacts(names, numbers)
