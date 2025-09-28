@@ -1,5 +1,5 @@
 #task5
-class BracUStudent:
+class BracUstudent:
   def __init__(self,student_name ,home):
     self.student_name =student_name
     self.home=home
@@ -10,7 +10,7 @@ class BracUStudent:
     print(f"Have Bus Pass? {self.bus_pass}")
   def get_pass(self):
       self.bus_pass= True
-class BracUBus:
+class BracUbus:
   def __init__(self,route,capacity=2):
     self.route = route
     self.capacity=capacity
@@ -35,17 +35,17 @@ class BracUBus:
           self.count+=1
       else :
         print(f"Bus is full!")
-st1 = BracUStudent("Afif", "Mirpur")
+st1 = BracUstudent("Afif", "Mirpur")
 print("1===========================")
-st2 = BracUStudent("Shanto", "Motijheel")
-st3 = BracUStudent("Taskin", "Mirpur")
+st2 = BracUstudent("Shanto", "Motijheel")
+st3 = BracUstudent("Taskin", "Mirpur")
 st1.show_details()
 st2.show_details()
 print("2===========================")
 st3.show_details()
 print("3===========================")
-bus1 = BracUBus("Mirpur")
-bus2 = BracUBus("Azimpur", 5)
+bus1 = BracUbus("Mirpur")
+bus2 = BracUbus("Azimpur", 5)
 bus1.show_details()
 bus2.show_details()
 print("4===========================")
