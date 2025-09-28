@@ -6,7 +6,7 @@ class Team:
   def setName(self, team_name):
     self.__team_name = team_name
   def addPlayer(self, player):
-    self.__player.append(player.name) ##bujhi nai ata
+    self.__player.append(player.name)
   def printDetail(self):
     print(f"=====================")
     print(f"Team:{self.__team_name}")
