@@ -1,7 +1,7 @@
 class Triangle:
     def __init__(self, base, height):
-        self.__height = height
-        self.__base = base
+        self.__height = height        # private attribute
+        self.__base = base            # private attribute
     def getBase(self):
         return self.__base
     def getHeight(self):
