@@ -1,4 +1,3 @@
-#task3
 class Team:
   def __init__(self, team_name=''):
     self.__team_name = team_name
