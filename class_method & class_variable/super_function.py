@@ -10,7 +10,7 @@ class A:
 
 class B(A):
     def __init__(self):
-        # If you want to run the parent's __init__, you can use super().__init__()
+        # If you want to run the parent's __init__, you can use super().__init__() 
         pass
 
     def method2(self):
