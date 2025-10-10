@@ -20,7 +20,7 @@ class Student:
         return cls(name, int(id_numb))  # convert id to int
 
 
-s1 = Student.from_string("Karim-22")
+s1 = Student.from_string("Karim-22") 
 s2 = Student.from_string("Rahim-33")
 
 s1.details()
