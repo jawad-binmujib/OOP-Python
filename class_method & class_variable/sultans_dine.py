@@ -13,7 +13,7 @@ class SultansDine:
         print(f"Branch Name: {self.branch_name}")
         print(f"Branch Sell : {self.branch_sell}")
     def sellQuantity(self, amount):
-        self.amount = amount
+        self.amount = amount 
         if amount < 10:
             self.branch_sell = amount * 300
         elif amount < 20:
