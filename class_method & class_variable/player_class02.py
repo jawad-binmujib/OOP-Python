@@ -10,7 +10,7 @@ class Player:
 
     def hit_four(self):
         self.run += 4
-        Player.team_run += 4
+        Player.team_run += 4 
 
 
 Tamim = Player(0)
