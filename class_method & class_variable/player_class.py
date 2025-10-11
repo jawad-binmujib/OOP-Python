@@ -12,7 +12,7 @@ class Player:
     self.player_name = player_name
     Player.total += 1
     Player.players_list.append(player_name)
-  def set_number(self, player_number):
+  def set_number(self, player_number): 
     self.player_number = player_number
   def set_team(self, team):
     self.team = team
