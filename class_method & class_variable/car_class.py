@@ -1,5 +1,5 @@
 class Car:
-    wheel_size = 16
+    wheel_size = 16 # class/static variable
 
     def __init__(self, car_name, car_cc):
         self.car_name = car_name
