@@ -14,7 +14,7 @@ class Child(Parent):
         self.loc = loc
 
     def metB(self):
-        print("metB is a method of child class ")
+        print("metB is a method of child class ") 
 
 # Create a Child object with default parameters
 s1 = Child()
