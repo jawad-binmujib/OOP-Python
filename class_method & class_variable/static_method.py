@@ -9,7 +9,7 @@ class Student:
         print(f"University Name:",Student.uni)
     @classmethod
     def change_uni(cls ,name):
-        cls.uni = name
+        cls.uni = name 
     @classmethod
     def string_name(cls, info):
         nam , id = info.split("_")
@@ -17,7 +17,7 @@ class Student:
         return obj
 
 
-    @staticmethod
+    @staticmethod  
     def check_dpt(id):
         if  id [3:5] == "01":
             print(f"CSE")
