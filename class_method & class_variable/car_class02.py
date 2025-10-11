@@ -20,7 +20,7 @@ class Car:
         name, cc = car_data.split("_")
         return cls(name, int(cc))     # cast cc to int
 
-
+ 
 car1 = Car("Mercedes", 3000)
 car2 = Car.from_string("Morris Garage_2000")  # alternative constructor
 
