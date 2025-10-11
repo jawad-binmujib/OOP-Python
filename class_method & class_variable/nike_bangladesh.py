@@ -1,6 +1,6 @@
 class NikeBangladesh:
-    branch_list = []
-    total_sold = 0
+    branch_list = [] 
+    total_sold = 0 
     current_stock = {'Air Jordan': 0, 'Cortez': 0, 'Zoom Kobe': 0}
 
 
